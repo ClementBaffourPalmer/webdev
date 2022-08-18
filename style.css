@@ -1,0 +1,105 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Verdana;
+background: #f1f1f1;
+height: 100vh;
+overflow: hidden;
+}
+
+.center {
+background: rgb(144, 175, 175);
+position: absolute;
+width: 330px;
+height: 400px;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 50%;
+border-radius: 2.4%;
+}
+
+.center h1 {
+color:black;
+text-align: center;
+border-bottom: 1px solid silver;
+padding: 0 0 10px 0;
+}
+
+.center form{
+padding: 0 22.5px;
+box-sizing: border-box;
+}
+
+form .text_field {
+position: relative;
+border-bottom: 1px solid gray;
+margin: 25px 0;
+}
+
+.text_field input{
+width: 100%;
+padding: 0 3px;
+font-size: 16px;
+height: 40px;
+border: none;
+outline: none;
+border-radius: 3px;
+}
+
+.text_field label{
+position: absolute;
+margin-top: 6.5px;
+margin-bottom: 5px;
+top: 100px;
+left: 3px;
+color:black;
+background-color
+transform: translate(2%);
+font-size: 16px;
+pointer-events: none;
+transition: .5s;
+}
+/* 
+.txt_field label, psw{
+/* position: absolute; */
+/* top: 20px;
+color: black;
+transform: translate(3%);
+font-size: 16px;
+pointer-events: none;
+transition: .5s; */
+}
+/* 
+.text_field span::before{
+content: '';
+top: 40px;
+left: 0;
+position: absolute;
+height: 2px;
+background: #2691d9;
+transition: .5s; */
+} */
+
+/* .txt_field input:focus ~ label, */
+/* .txt_field input:valid ~ label{ */
+/* top: -5px; */
+/* color: lightgoldenrodyellow; */
+/* }  */
+
+.txt_field input:focus ~ span::before,
+/* .text_field input:valid ~ span::before{ */
+width: 100%;
+/* } */
+
+/* .psword{ */
+/* margin: -5px 0 20px 5px; */
+/* color:black; */
+}
+.submit_button{
+background-;
+color: black;
+}
+
+.submit_button, :hover{
+    color: blue;
+}
