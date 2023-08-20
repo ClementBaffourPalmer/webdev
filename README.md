@@ -1,3 +1,6 @@
 # A Login Form
-The above project is a Login form with the following features; a header,a text-field with an "Enter email address" placeholder,
-"Enter Password" placeholder and a login button. Implemented with HTML and CSS only
+
+The described project presents a professional Login form, featuring essential components: a well-designed header, an email address text-field with a placeholder, a password text-field also equipped with a placeholder, and a seamlessly integrated login button. This form has been developed exclusively using HTML and CSS.
+
+
+
